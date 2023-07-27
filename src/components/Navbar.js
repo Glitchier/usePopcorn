@@ -31,7 +31,7 @@ export function Navbar({ movies, query, setQuery }) {
           <p className="mob-num-results">
             Found <strong>{movies.length}</strong> results
           </p>
-          <Search />
+          <Search query={query} setQuery={setQuery} />
         </div>
       </div>
     </nav>
